@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { api } from '../api/api'
 import { Link } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
-import { useWishlist } from '../context/wishlistContext' 
+import { useWishlist } from '../context/WishlistContext'
 
 
 export default function Product({ searchQuery = '' }) {

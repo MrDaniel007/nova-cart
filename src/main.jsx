@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router.jsx'
 import { CartProvider } from './context/CartContext.jsx'
-import { WishlistProvider } from './context/WishlistContext.jsx'
+import { WishlistProvider} from './context/WishlistContext'
 import { Toaster } from 'react-hot-toast';
 
 createRoot(document.getElementById('root')).render(
