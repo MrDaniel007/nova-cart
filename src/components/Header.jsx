@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useCart } from '../context/CartContext.jsx'
-import { useWishlist } from '../context/wishlistContext.jsx'
+import { useWishlist } from '../context/WishlistContext.jsx'
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from '../firebase';
 import toast from 'react-hot-toast';
